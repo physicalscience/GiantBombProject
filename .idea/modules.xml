@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/GitLab-Projects.iml" filepath="$PROJECT_DIR$/.idea/modules/GitLab-Projects.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/GitLab-Projects_main.iml" filepath="$PROJECT_DIR$/.idea/modules/GitLab-Projects_main.iml" group="GitLab-Projects" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/GitLab-Projects_test.iml" filepath="$PROJECT_DIR$/.idea/modules/GitLab-Projects_test.iml" group="GitLab-Projects" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/brandon/brandon.iml" filepath="$PROJECT_DIR$/.idea/modules/brandon/brandon.iml" group="brandon" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/shantelle/frontend/frontend.iml" filepath="$PROJECT_DIR$/.idea/modules/shantelle/frontend/frontend.iml" group="shantelle/frontend" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/shantelle/shantelle.iml" filepath="$PROJECT_DIR$/.idea/modules/shantelle/shantelle.iml" group="shantelle" />
+    </modules>
+  </component>
+</project>
