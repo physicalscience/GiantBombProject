@@ -19,6 +19,10 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
+      <module name="anthony_main" target="1.8" />
+      <module name="anthony_test" target="1.8" />
+      <module name="brandon_main" target="1.8" />
+      <module name="brandon_test" target="1.8" />
       <module name="GitLab-Projects_main" target="1.8" />
       <module name="GitLab-Projects_test" target="1.8" />
     </bytecodeTargetLevel>

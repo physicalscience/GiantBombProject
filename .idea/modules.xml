@@ -5,8 +5,12 @@
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/GitLab-Projects.iml" filepath="$PROJECT_DIR$/.idea/modules/GitLab-Projects.iml" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/GitLab-Projects_main.iml" filepath="$PROJECT_DIR$/.idea/modules/GitLab-Projects_main.iml" group="GitLab-Projects" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/GitLab-Projects_test.iml" filepath="$PROJECT_DIR$/.idea/modules/GitLab-Projects_test.iml" group="GitLab-Projects" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/anthony/anthony.iml" filepath="$PROJECT_DIR$/.idea/modules/anthony/anthony.iml" group="anthony" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/anthony/anthony_main.iml" filepath="$PROJECT_DIR$/.idea/modules/anthony/anthony_main.iml" group="anthony" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/anthony/anthony_test.iml" filepath="$PROJECT_DIR$/.idea/modules/anthony/anthony_test.iml" group="anthony" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/brandon/brandon.iml" filepath="$PROJECT_DIR$/.idea/modules/brandon/brandon.iml" group="brandon" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/modules/shantelle/frontend/frontend.iml" filepath="$PROJECT_DIR$/.idea/modules/shantelle/frontend/frontend.iml" group="shantelle/frontend" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/brandon/brandon_main.iml" filepath="$PROJECT_DIR$/.idea/modules/brandon/brandon_main.iml" group="brandon" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/modules/brandon/brandon_test.iml" filepath="$PROJECT_DIR$/.idea/modules/brandon/brandon_test.iml" group="brandon" />
       <module fileurl="file://$PROJECT_DIR$/.idea/modules/shantelle/shantelle.iml" filepath="$PROJECT_DIR$/.idea/modules/shantelle/shantelle.iml" group="shantelle" />
     </modules>
   </component>
