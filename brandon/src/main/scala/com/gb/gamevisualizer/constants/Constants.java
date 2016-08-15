@@ -1,15 +1,24 @@
 package com.gb.gamevisualizer.constants;
 
-import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.HashMap;
-import java.util.List;
 import java.util.Map;
 
 public class Constants {
-    enum GiantBombInfo{
+    private final Map<String, Integer> nameToId = new HashMap<>();
+    private final Map<Integer, String> idToName = new HashMap<>();
+
+    public Constants() {
+        buildMaps();
+    }
+    public enum GiantBombInfo{
         API_CODE("?api_key=e8a3ee2589f8db0821210188ca6e7181f83ac104"),
         URL("http://www.giantbomb.com/api"),
-        GAME("/game/");
+        JSON("&format=json"),
+        GAME("/game/"),
+        SEARCH("/search/"),
+        QUERY("&query="),
+        NAME_ONLY("&field_list=name");
 
         private String val;
 
@@ -22,7 +31,7 @@ public class Constants {
         }
     }
 
-    enum Platforms {
+    public enum Platforms {
         AMIGA("Amiga", 1),
         GAME_BOY("Game Boy", 3),
         GAME_BOY_ADVANCE("Game Boy Advance", 4),
@@ -122,18 +131,26 @@ public class Constants {
 
         private String name;
         private Integer id;
-        private final Map<String, Integer> nameToId = new HashMap<>();
-        private final Map<Integer, String> idToName = new HashMap<>();
 
         Platforms(String name, Integer id) {
             this.name = name;
             this.id = id;
         }
+    }
 
-        public void buildMaps() {
-            List<String> names = new ArrayList<>();
-             Platforms[] platforms = Platforms.values();
-        }
+    public String getPlatformName(Integer id) {
+        return idToName.get(id);
+    }
 
+    public Integer getPlatformId(String name) {
+        return nameToId.get(name);
+    }
+
+    private void buildMaps() {
+        Platforms[] platforms = Platforms.values();
+        Arrays.asList(platforms).stream().forEach((p) -> {
+            nameToId.put(p.name,p.id);
+            idToName.put(p.id, p.name);
+        });
     }
 }
